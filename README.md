@@ -42,7 +42,7 @@
   1. `sudo apt-get update`
   2. `sudo apt-get install curl git-core nginx -y`
 9. **Instalar PostgreSQL 9.3**
-  1. `psql -v` Verificar que no está instalado
+  1. `psql --version` Verificar que no está instalado
   2. `sudo apt-get install postgresql-9.3`
   3. `sudo -u postgres psql postgres` Para verificar instalación. Para salir: `\q`
 10. **Configurar PostgreSQL**
