@@ -33,7 +33,7 @@
   7. `echo 'export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"' >> ~/.bashrc`
   8. `exec $SHELL`
   9. `git clone https://github.com/sstephenson/rbenv-gem-rehash.git ~/.rbenv/plugins/rbenv-gem-rehash`
-  10. `rbenv install 2.2.0` [MUUUUY LENTO - cofee time?]
+  10. `rbenv install 2.2.0` [MUUUUY LENTO - coffee time?]
   11. `rbenv global 2.2.0`
   12. `ruby -v` Para verificar instalación
 7. **Evitar documentaciones al instalar gemas**
