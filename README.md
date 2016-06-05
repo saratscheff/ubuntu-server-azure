@@ -68,7 +68,7 @@
 15. **Confirmar datos y configuraciones de puma y pg**
   1. Verificar que las gemas puma y pg están en Gemfile
   2. Verificar variables para username y password en production en database.yml
-  3. Configurar puma con texto de config/puma.rb con el siguiente texto (REEMPLAZAR workers 1 POR EL NUMERO DE NUCLEOS del server!!):
+  3. Configurar puma con texto de /home/USER/APP/config/puma.rb (Crear archivo) con el siguiente texto (REEMPLAZAR workers 1 POR EL NUMERO DE NUCLEOS del server!!):
   ```
   # Change to match your CPU core count
 workers 1
